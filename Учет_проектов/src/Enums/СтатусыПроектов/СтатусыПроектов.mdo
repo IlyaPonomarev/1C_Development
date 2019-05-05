@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="741f4932-c400-4d0f-8688-e439c0721f4a">
+  <producedTypes>
+    <refType typeId="771959ca-d947-405e-a718-169bdc73e302" valueTypeId="34a734ba-7b28-42d4-a95d-595af0c95c40"/>
+    <listType typeId="7be55f8c-9559-428e-b3b4-88623a6e9118" valueTypeId="b5f90083-2adf-4cda-9207-1bdb2467bee5"/>
+    <managerType typeId="25599fb4-37ad-40c5-bc3b-acc77a8a886d" valueTypeId="1e4b2fd7-768d-410d-803a-d09a77249281"/>
+  </producedTypes>
+  <name>СтатусыПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы проектов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2da6a3d4-6799-40f5-9ac9-2a7bd448bb4f">
+    <name>Предпроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предпроект</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d41b6058-31f3-4a8b-a5dc-a815a0d9b1e5">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3beab180-e6d7-4fa8-8aca-df7795e59ec2">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

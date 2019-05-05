@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce1b300e-1a2a-43de-acc1-930a7ab2a05a">
+  <producedTypes>
+    <objectType typeId="2ec0c698-d185-439a-9734-9383aadba19a" valueTypeId="e5a7d685-c113-431d-9eee-03ec64acbd99"/>
+    <refType typeId="03c514e0-c656-4c9f-8580-33e4bf9e8625" valueTypeId="45eac03e-2845-4dc3-a22c-b31e2487bc11"/>
+    <selectionType typeId="8db8e93a-9d82-4407-8600-494a3694ecea" valueTypeId="7d1d7e51-b9fd-48d3-85d2-ad6c8590814b"/>
+    <listType typeId="cc38486d-7ea0-4592-ab22-e709e882db7a" valueTypeId="c5a009e9-b16b-4e46-9f90-1caf7796148d"/>
+    <managerType typeId="1d0a7419-975e-4cb9-a007-50a590bf7881" valueTypeId="1d6821c8-2ea2-45e3-8205-33fbbbf4fe20"/>
+  </producedTypes>
+  <name>ЭтапыРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы работ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЭтапыРабот.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЭтапыРабот.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

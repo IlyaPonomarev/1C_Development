@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2adfe322-5672-4183-b26e-8cb0db2eb74b">
+  <producedTypes>
+    <selectionType typeId="27713e50-db13-4864-84bb-7c7f1506dc11" valueTypeId="f73ccd5c-b738-4e02-981b-db3cb163454b"/>
+    <listType typeId="c8a404e9-def7-49dc-9869-b1972aa15a01" valueTypeId="c76eeee4-941f-4793-93dd-bf5468a06b2d"/>
+    <managerType typeId="55029b1b-2f3c-4c6e-ab15-6b1353b7052e" valueTypeId="ba5ebe01-d610-4dd6-9bd4-6b7688f9184d"/>
+    <recordSetType typeId="a4e723eb-3dc3-4f69-815c-c9d3989ec9f3" valueTypeId="28b2f6dd-bbcc-47f9-b6ef-6d03542c1ec8"/>
+    <recordKeyType typeId="c3cd5d28-aac0-4538-966f-3bc12768b726" valueTypeId="6d6c39b2-dd94-4a3c-ad62-276bb3ce3404"/>
+    <recordType typeId="b21a08cc-c67c-428a-8cb9-4de67eefb08a" valueTypeId="7b98ae99-c914-4f5e-9046-e527226d06c8"/>
+  </producedTypes>
+  <name>РаботыПоПроектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работы по проектам</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ff2e18b5-fd58-4d13-a917-fc1c035b2646">
+    <name>Объем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="155da9eb-2567-45a1-befd-8522b55f4541">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="04c2ba32-7bc3-4d91-a0d9-71f1dfc196cc">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагент</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ce902882-6873-4814-8a89-a4aff38d3746">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Проект</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="fa774cde-1f8d-4c05-b9cb-b85c8ac06361">
+    <name>НаименованиеРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование работ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.НаборыРабот</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

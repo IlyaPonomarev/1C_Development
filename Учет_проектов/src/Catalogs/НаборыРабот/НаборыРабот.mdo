@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a695aa2a-d27a-47c3-be77-bfc07ac05ef8">
+  <producedTypes>
+    <objectType typeId="62239202-6ebe-4b31-a5ab-d586733fc4b9" valueTypeId="81b10325-65ce-4f4b-a58d-7e686101f797"/>
+    <refType typeId="6ef79df7-b761-4b05-ab14-dcadceaa6c15" valueTypeId="aa6372ad-369c-453d-a808-193e4726562e"/>
+    <selectionType typeId="b7f6944d-d9fd-4480-bd43-625c7247a1c1" valueTypeId="722f4d8f-5354-4fba-b8c1-1f219dfd809a"/>
+    <listType typeId="e4de47dd-e6a2-4133-a310-e969ff15e3db" valueTypeId="f5ff0d1f-2c43-4114-85ff-152808d0c5a8"/>
+    <managerType typeId="a8523f82-1557-42e7-be5c-79e611d47b71" valueTypeId="db2296bc-4ad5-4368-9f00-307638c78139"/>
+  </producedTypes>
+  <name>НаборыРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы работ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаборыРабот.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НаборыРабот.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

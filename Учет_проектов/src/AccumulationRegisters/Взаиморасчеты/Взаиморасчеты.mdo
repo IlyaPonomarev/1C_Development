@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59309cd8-fe5f-48cf-8042-a2ceb044ede7">
+  <producedTypes>
+    <selectionType typeId="bfd18d8d-9d21-4b25-a15f-9488251e3c29" valueTypeId="5bbec3b0-1a40-40ce-8834-66f3d617cb6e"/>
+    <listType typeId="a425f90a-26a2-423e-af1d-da4681c5d8f4" valueTypeId="34374ba8-be3c-41ee-9745-576ccc564355"/>
+    <managerType typeId="a5eaf840-dd03-4b5a-8704-a75276bc06ef" valueTypeId="a71c56e0-9d5b-49e3-9fa5-6c78ec066675"/>
+    <recordSetType typeId="375c5515-ef4f-40b3-bff9-9f5132031233" valueTypeId="f1624255-85a9-4906-ae29-4f84c81a2ad1"/>
+    <recordKeyType typeId="85afb842-ce7f-413d-9a8c-8c94afcaee34" valueTypeId="de9832ab-ceb6-4db0-a939-2865b214a259"/>
+    <recordType typeId="e66e6b2c-4111-488e-a3fd-3a402fbec4d5" valueTypeId="4696fc5a-9686-46f9-90f2-1e8e028fcca3"/>
+  </producedTypes>
+  <name>Взаиморасчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="285a0ac3-f04c-45ec-8606-72b12a768421">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="eb9f87d6-39f8-4ec9-b4d1-f6e87637e42b">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагент</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e5ac424a-7fff-464a-aac5-3ec1703f454a">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Проект</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
